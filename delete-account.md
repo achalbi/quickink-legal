@@ -5,13 +5,13 @@ permalink: /delete-account/
 
 # Delete your QuickInk account and data
 
-This page explains how to delete your QuickInk account and all associated data. It applies to the QuickInk Android app published by **thoughtbasics**.
+This page explains how to delete your QuickInk account and all associated data. It applies to the QuickInk app for **Android and iOS**, published by **thoughtbasics**.
 
 ## What happens when you delete
 
-QuickInk does not operate its own servers that store your notes or scans. Your data lives in two places:
+QuickInk does not operate its own servers that store your documents, photos, or notes. Your data lives in two places:
 
-1. **On your device** — local app storage (notes, page images, search index).
+1. **On your device** — local app storage (notes, document scans, photos, search index). The built-in audio tracks are bundled with the app and contain none of your personal data.
 2. **In your own Google Drive** — files QuickInk created using the `drive.file` scope.
 
 Deleting your account removes your data from both. Because nothing is stored on QuickInk-controlled servers, deletion is **immediate** and there is no waiting period.
@@ -21,7 +21,7 @@ Deleting your account removes your data from both. Because nothing is stored on 
 This is the fastest path and removes everything.
 
 1. **Open QuickInk** on your device → **Settings** → **Sign out**. This signs you out of Google.
-2. **Uninstall QuickInk** from your device. Android removes all local app data automatically.
+2. **Uninstall QuickInk** from your device. Deleting the app removes all local app data automatically — on **Android** when you uninstall, and on **iOS** when you remove the app from the Home Screen / App Library.
 3. **Revoke QuickInk's access to your Google account** at https://myaccount.google.com/permissions. Find "QuickInk" in the list and choose **Remove access**. After this, QuickInk can no longer read or write any file in your Drive.
 4. **Delete the QuickInk folder in Google Drive** if you want to remove the synced copies. Open https://drive.google.com, find the **QuickInk** folder, and move it to Trash → **Empty trash**.
 
@@ -41,7 +41,7 @@ We will respond within **30 days** to confirm. Because we do not maintain a serv
 
 ## What we retain after deletion
 
-**Nothing.** thoughtbasics does not operate servers that store user notes, scans, account records, or analytics. After you complete the steps above, no QuickInk-controlled data about you remains.
+**Nothing.** thoughtbasics does not operate servers that store user documents, photos, notes, account records, or analytics. After you complete the steps above, no QuickInk-controlled data about you remains.
 
 ## Other questions
 
