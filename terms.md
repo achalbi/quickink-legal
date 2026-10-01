@@ -5,108 +5,83 @@ permalink: /terms/
 
 # Terms of Service for QuickInk
 
-**Effective date:** 24 June 2026
-**Last updated:** 24 June 2026
+**Effective date:** 1 October 2026
+**Last updated:** 12 July 2026
 
-> ⚠️ This document is a starting template generated for the QuickInk mobile app (Android and iOS). It is **not legal advice**. Review with a qualified attorney before publishing — especially for limitations of liability, governing law, app-store requirements, and consumer-protection terms in your target markets.
+These Terms of Service ("Terms") govern your use of the QuickInk mobile application and related services, including sync, sharing, and published pages ("QuickInk", "the Service") operated by **thoughtbasics**, Bengaluru, Karnataka, India.
 
-These Terms of Service ("Terms") govern your use of the QuickInk mobile application for **Android and iOS** ("QuickInk", "the app", "we", "our") operated by **thoughtbasics**, based in Bengaluru, Karnataka, India.
-
-By installing or using QuickInk you agree to these Terms. If you do not agree, do not use the app.
+By installing or using QuickInk you agree to these Terms and the [Privacy Policy](/privacy/), which is incorporated by reference. If you do not agree, do not use the Service.
 
 ---
 
 ## 1. Eligibility
 
-You must be at least 13 years old (or 16 in regions where that is the applicable digital-consent age) and have a valid Google account to use QuickInk. By using the app you represent that you meet these requirements.
+You must be at least **18 years old** and have a valid Google account to use QuickInk. By using the Service you represent that you meet these requirements.
 
 ## 2. Your account
 
-QuickInk uses your Google account for sign-in on both Android and iOS. You are responsible for keeping your Google credentials secure. We are not responsible for activity that occurs through your Google account.
+QuickInk uses your Google account for sign-in. Keep your Google credentials secure; you are responsible for activity under your account. You can revoke QuickInk's access at https://myaccount.google.com/permissions and delete your account as described at [/delete-account/](/delete-account/).
 
-You can revoke QuickInk's access to your Google account at any time at https://myaccount.google.com/permissions.
+## 3. The Service
 
-## 3. License to use the app
+QuickInk lets you scan, store, organize, and share documents and media. When you are signed in, your content is synced to QuickInk's cloud infrastructure so it is backed up and available across your devices. Features may change, and some features may be released gradually.
 
-We grant you a personal, limited, non-exclusive, non-transferable, revocable license to install and use QuickInk on devices you own or control, for your personal or internal business use. You may not:
+## 4. License to use the app
 
-- Copy, modify, reverse-engineer, or create derivative works from the app, except as permitted by applicable law.
-- Use the app to break the law, infringe someone else's rights, or harm others.
-- Use the app to scrape, mass-extract, or redistribute data via automated means.
-- Attempt to gain unauthorized access to the app's systems or other users' data.
-- Extract, copy, redistribute, or use the built-in audio tracks outside the app (see Section 5).
-- Resell or sublicense the app, or remove copyright/branding notices.
+We grant you a personal, limited, non-exclusive, non-transferable, revocable license to install and use QuickInk on devices you own or control, for your personal or internal business use. You may not copy, modify, reverse-engineer, or create derivative works from the app except as permitted by law; scrape or mass-extract data via automated means; resell or sublicense the app; remove notices; or attempt unauthorized access to the Service or other users' data.
 
-## 4. Your content
+## 5. Your content
 
-You own everything you create in QuickInk — notes, document scans, photos, and search index entries. You are solely responsible for:
+You own the content you create or upload. You grant us only the limited rights needed to operate the Service: to store, transmit, back up, and display your content to you and to the people **you** choose to share it with, and to process it on your device as described in the Privacy Policy. We claim no other rights. We do not use your content for advertising or model training.
 
-- The legality of content you scan, capture, or import (do not scan or photograph documents or images you don't have permission to digitize).
-- Backing up your data. While QuickInk syncs to your own Google Drive, we are not responsible for loss of data caused by Drive outages, account suspension, accidental deletion, or device failure.
+You are responsible for your content and for keeping independent backups of anything critical. Scan and share only material you have the right to digitize and distribute.
 
-You grant us only the permissions strictly required for the app to function: storing your content on your device and writing it to your own Google Drive on your behalf. We do not claim any ownership of your content. The built-in audio tracks are **not** your content and remain owned by or licensed to thoughtbasics (see Section 5).
+## 6. Acceptable use (due diligence under the IT Rules, 2021)
 
-## 5. Built-in audio
+You must not host, display, upload, modify, publish, transmit, store, update, or share any information that: belongs to another person and to which you have no right; is obscene, pornographic, paedophilic, invasive of another's privacy (including bodily privacy), insulting or harassing on the basis of gender, or racially or ethnically objectionable; encourages money laundering or gambling, or is otherwise unlawful; is harmful to children; infringes any patent, trademark, copyright, or other proprietary right; deceives or misleads about the origin of a message or knowingly and intentionally communicates misinformation or patently false information; impersonates another person; threatens the unity, integrity, defence, security, or sovereignty of India, friendly relations with foreign states, public order, or incites a cognizable offence, or is insulting to another nation; contains a software virus or code designed to interrupt, destroy, or limit any computer resource; or is patently false and untrue, written or published with the intent to mislead or harass for financial gain or injury.
 
-QuickInk includes built-in focus and background audio tracks. These tracks are owned by or licensed to thoughtbasics and are provided to you under a personal, non-exclusive, non-transferable, revocable license to play **within QuickInk only**, including background and offline playback. You may not extract, copy, download outside the app, redistribute, sell, sublicense, publicly perform, or use the tracks in any other product or context. The audio is provided "as is" as part of the app and is subject to the disclaimers and liability limits in Sections 9 and 10.
+We may remove content or suspend accounts on receiving actual knowledge (including a court or government order) that content violates these rules or applicable law, within the timelines the law prescribes.
 
-## 6. Third-party services
+## 7. Sharing and published content
 
-QuickInk relies on services provided by Google, including Google Sign-In, Google Drive, Google ML Kit, and Google Play Services. The app is distributed through the **Google Play Store** (Android) and the **Apple App Store** (iOS). Your use of those services and stores is also governed by their terms:
+Share links make content available to **anyone with the link**, subject to controls you set (password, expiry, download permission). Publishing makes content **publicly accessible on the web**. You are responsible for what you share and publish. We may disable shared or published content that violates Section 6.
 
-- Google Terms of Service: https://policies.google.com/terms
-- Google API Services User Data Policy: https://developers.google.com/terms/api-services-user-data-policy
-- Apple Media Services Terms: https://www.apple.com/legal/internet-services/itunes/
+## 8. Grievance redressal
 
-We are not responsible for outages, changes, or data loss caused by these services.
+Complaints about the Service or about content on it: **admin@thoughtbasics.com** [name a Grievance Officer on publication]. We acknowledge complaints within **24 hours** and resolve them within **15 days** of receipt. Complaints alleging exposure of private imagery of an individual are actioned within **24 hours** of receipt, as required by the IT Rules, 2021.
 
-## 7. Service availability and changes
+## 9. Third-party services
 
-QuickInk is provided as-is and may be updated, modified, or discontinued at any time. We do not guarantee uninterrupted availability. Some features may require an internet connection or a working Google account; the built-in audio is designed to work offline.
+The Service depends on providers including Google (Sign-In, push, app stores), Supabase, Cloudflare, and PowerSync. Your use of Google services is also governed by Google's terms (https://policies.google.com/terms). We are not responsible for outages or data loss caused by third-party providers, though we choose and monitor them with care.
 
-## 8. Privacy
+## 10. Availability and changes
 
-Your privacy is described in our [Privacy Policy](/privacy/), which is incorporated into these Terms by reference.
+The Service is provided as-is and may be updated, modified, or discontinued. We do not guarantee uninterrupted availability. If we discontinue the Service, we will give reasonable notice and an opportunity to export your content.
 
-## 9. Disclaimer of warranties
+## 11. Disclaimer of warranties
 
-THE APP IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, WHETHER EXPRESS, IMPLIED, OR STATUTORY, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, AND ACCURACY OF DATA. WE DO NOT WARRANT THAT THE APP WILL BE ERROR-FREE, SECURE, OR UNINTERRUPTED. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF IMPLIED WARRANTIES, IN WHICH CASE THE EXCLUSIONS ABOVE APPLY TO THE FULLEST EXTENT PERMITTED BY LAW.
+THE SERVICE IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, EXPRESS, IMPLIED, OR STATUTORY, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, AND ACCURACY. SOME JURISDICTIONS DO NOT ALLOW THESE EXCLUSIONS; THEY APPLY TO THE FULLEST EXTENT PERMITTED BY LAW.
 
-## 10. Limitation of liability
+## 12. Limitation of liability
 
-TO THE FULLEST EXTENT PERMITTED BY LAW, IN NO EVENT WILL THOUGHTBASICS, ITS AFFILIATES, OR ITS CONTRIBUTORS BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES — INCLUDING BUT NOT LIMITED TO LOSS OF DATA, LOSS OF PROFITS, OR LOSS OF GOODWILL — ARISING FROM YOUR USE OF, OR INABILITY TO USE, THE APP. OUR TOTAL CUMULATIVE LIABILITY FOR ANY CLAIM ARISING FROM OR RELATED TO THESE TERMS WILL NOT EXCEED THE AMOUNT YOU HAVE PAID US IN THE 12 MONTHS PRECEDING THE CLAIM, OR ₹2,000 INR, WHICHEVER IS GREATER. IF YOU USE THE APP FOR FREE, OUR LIABILITY IS LIMITED TO THE FULLEST EXTENT PERMITTED BY LAW.
+TO THE FULLEST EXTENT PERMITTED BY LAW, THOUGHTBASICS WILL NOT BE LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING LOSS OF DATA, PROFITS, OR GOODWILL. OUR TOTAL CUMULATIVE LIABILITY FOR ANY CLAIM WILL NOT EXCEED THE AMOUNT YOU PAID US IN THE 12 MONTHS PRECEDING THE CLAIM OR ₹2,000, WHICHEVER IS GREATER. NOTHING IN THESE TERMS LIMITS LIABILITY THAT CANNOT BE LIMITED UNDER APPLICABLE LAW, INCLUDING UNDER THE DPDP ACT, 2023.
 
-## 11. Indemnification
+## 13. Indemnification
 
-You agree to indemnify and hold thoughtbasics harmless from any claims, damages, liabilities, and expenses arising from (a) your use of the app in breach of these Terms, (b) your content, or (c) your violation of any law or third-party right.
+You agree to indemnify thoughtbasics against claims and expenses arising from (a) your breach of these Terms, (b) your content, or (c) your violation of law or third-party rights.
 
-## 12. Termination
+## 14. Termination
 
-You may stop using QuickInk at any time by uninstalling the app. We may suspend or terminate your access if you breach these Terms or if we discontinue the app. On termination, sections 4 (your content), 5 (built-in audio), 9 (warranties), 10 (liability), 11 (indemnification), 14 (Apple App Store), and 15 (governing law) survive.
-
-## 13. Changes to these Terms
-
-We may update these Terms from time to time. The "Last updated" date reflects the most recent revision. Material changes will be highlighted in the app or via a notice on the project's home page. Continued use after changes take effect means you accept the revised Terms.
-
-## 14. Apple App Store (additional terms for iOS users)
-
-If you downloaded QuickInk from the Apple App Store, the following additional terms apply to your use of the iOS app. If they conflict with the rest of these Terms, these terms control for the iOS app:
-
-- **Parties:** These Terms are between you and thoughtbasics only, **not** with Apple. Apple is not responsible for the app or its content.
-- **License scope:** The license granted in Section 3 is limited to use of QuickInk on any Apple-branded device you own or control, as permitted by the Apple App Store Terms of Service.
-- **Maintenance and support:** thoughtbasics, not Apple, is solely responsible for any maintenance and support for the app. Apple has no obligation to provide maintenance or support services.
-- **Warranty:** In the event of any failure of the app to conform to any applicable warranty, you may notify Apple, and Apple may refund the purchase price (if any) you paid for the app. To the maximum extent permitted by law, Apple has no other warranty obligation with respect to the app, and any other claims, losses, liabilities, damages, costs, or expenses attributable to a failure to conform to any warranty are thoughtbasics' responsibility.
-- **Product claims:** thoughtbasics, not Apple, is responsible for addressing any claims by you or any third party relating to the app or your use of it, including product-liability claims, claims that the app fails to meet any legal or regulatory requirement, and claims under consumer-protection, privacy, or similar laws.
-- **Intellectual property:** In the event of any third-party claim that the app or your use of it infringes that party's intellectual property rights, thoughtbasics, not Apple, is solely responsible for the investigation, defense, settlement, and discharge of any such claim.
-- **Legal compliance:** You represent that you are not located in a country subject to a U.S. Government embargo or designated by the U.S. Government as a "terrorist supporting" country, and that you are not listed on any U.S. Government list of prohibited or restricted parties.
-- **Third-party beneficiary:** Apple and its subsidiaries are third-party beneficiaries of these Terms, and upon your acceptance, Apple will have the right (and will be deemed to have accepted the right) to enforce these Terms against you as a third-party beneficiary.
+You may stop using QuickInk at any time and delete your account per [/delete-account/](/delete-account/). We may suspend or terminate access for breach of these Terms (including Section 6) or if we discontinue the Service. Sections 5, 11, 12, 13, and 15 survive termination.
 
 ## 15. Governing law and disputes
 
-These Terms are governed by the laws of India, without regard to its conflict-of-laws principles. Disputes arising under these Terms will be subject to the exclusive jurisdiction of courts in Bengaluru, Karnataka, India, except where applicable consumer-protection law gives you the right to bring claims in your local courts.
+These Terms are governed by the laws of India. Courts in Bengaluru, Karnataka have exclusive jurisdiction, except where applicable consumer-protection law provides otherwise.
 
-## 16. Contact
+## 16. Changes to these Terms
 
-**thoughtbasics**
-Email: **admin@thoughtbasics.com**
-Location: Bengaluru, Karnataka, India
+We may update these Terms; material changes will be notified in-app or on this page. Continued use after changes take effect means you accept them.
+
+## 17. Contact
+
+**thoughtbasics** — Bengaluru, Karnataka, India — **admin@thoughtbasics.com**

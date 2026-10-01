@@ -5,143 +5,144 @@ permalink: /privacy/
 
 # Privacy Policy for QuickInk
 
-**Effective date:** 24 June 2026
-**Last updated:** 24 June 2026
+**Effective date:** 1 October 2026
+**Last updated:** 1 October 2026
 
-> ⚠️ This document is a starting template generated for the QuickInk mobile app (Android and iOS). It is **not legal advice**. Review with a qualified attorney before publishing — especially if you process data of users in the EU/UK (GDPR), California (CCPA/CPRA), or other regulated jurisdictions.
+This Privacy Policy explains how the QuickInk mobile application ("QuickInk", "the app", "we", "our") handles your information. QuickInk is operated by **thoughtbasics**, Bengaluru, Karnataka, India — the "Data Fiduciary" under India's Digital Personal Data Protection Act, 2023 ("DPDP Act").
 
-This Privacy Policy explains how the QuickInk mobile application for **Android and iOS** ("QuickInk", "the app", "we", "our") handles your information.
-
-QuickInk is a document and photo organizer with built-in scanning, fast search and retrieval, Google Drive sync, and an optional set of built-in focus/background audio tracks.
-
-QuickInk is operated by **thoughtbasics**, based in Bengaluru, Karnataka, India.
-
-If you have questions about this policy or your data, contact us at: **admin@thoughtbasics.com**.
+Questions, requests, or grievances: **admin@thoughtbasics.com**.
 
 ---
 
 ## 1. Summary
 
-- QuickInk does **not** operate its own servers that store your documents, photos, or notes.
-- Your content is stored on **your device** and synced to **your own Google Drive** account.
-- We use **Google Sign-In** to authenticate you and **Google Drive** to sync your data, both with your consent.
-- Document and photo scanning runs **on your device** using Google ML Kit. Images are not sent to our servers.
-- The built-in focus/background audio is **bundled with the app** and played locally. It is not streamed from any third party, and we do not collect listening data.
-- We do not use analytics, advertising SDKs, or third-party trackers.
+- Your notes, scans, photos, and related content are stored **on your device** and, when you are signed in, **synced to QuickInk's cloud** so they are backed up and available across your devices.
+- Document scanning, text extraction (OCR) and, in the apps, building the search index run **on your device** (so did face detection, in earlier versions of the app); voice-note transcription does too where your phone supports it (Section 2.7). We never use your content to train AI models, ours or anyone else's, and never for advertising. Some features send content to our infrastructure: **naming** sends the **text of a new scan or voice note** to generate its title and one-line description (Section 4b); **online transcription** sends the **images of the pages of scans you make or open** (Section 4b); **Ask** sends **your question and the relevant pages of your documents** (Section 4a); the **web app** sends text to build its search index (Section 4a); and **face grouping**, in the web app and earlier versions of the app, stores face templates **in your account** (Section 2.6). Your phone's own location and speech services, from Apple or Google, may also process locations and voice input (Sections 2.4 and 2.7).
+- We use a small set of infrastructure providers (Apple, Google, Supabase, Cloudflare, PowerSync) to operate the service — listed in Section 6.
+- We collect limited, first-party **usage analytics**, linked to your account (event counts, platform and app version, sync-error reports — not the contents of your documents). There are **no advertising SDKs and no third-party trackers** in the app.
+- Content you deliberately **publish or share by link** is accessible to anyone who has the link (Section 7).
+- You can request a copy of your data or deletion of your account and data at any time (Sections 9–10).
 
-## 2. Information we access
+## 2. Information we collect
 
-### 2.1 Google account information
+### 2.1 Account information
+When you sign in with Google, we receive your basic Google profile: name, email address, and profile picture. We use it to create and authenticate your QuickInk account. We never receive your Google password.
 
-When you sign in with Google, the app receives your basic Google profile (name, email address, profile picture). We use this to identify you within the app and to authenticate requests to Google Drive on your behalf. We do not receive your Google password. Google Sign-In is used the same way on both Android and iOS.
+### 2.2 Profile details you add
+Display name, optional phone number, profile photo, and similar profile fields you choose to fill in.
 
-### 2.2 Content you create
+### 2.3 Content you create ("your content")
+Document scans and imported files, photos and videos, notes and journals, voice notes and their transcriptions, text extracted from your documents by on-device OCR (used to make your content searchable), the text online transcription returns for your scanned pages (Section 4b), documents, folders, tags (including labels the app suggests), places, albums, stories, chat messages and the media you send in them (from earlier versions of the app and from the web app), Ask conversations, tasks, people and contacts you link (2.5), face data from earlier versions of the app and the web app (2.6), and trip records from earlier versions of the app. Your content is stored on your device and synced to QuickInk's cloud storage when you are signed in.
 
-The app stores notes, document scans, photos, and related metadata (titles, timestamps, page order, search index) that you create or capture. This content is stored on your device and, when sync is enabled, in a folder inside your own Google Drive.
+On iPhone, if you turn on **Also add to Reminders** when you set a reminder from a scan, QuickInk asks for access to Apple Reminders and adds that reminder there. It then keeps that one reminder in step with the task: changing the time moves it, ticking the task off completes it, and removing the reminder or deleting the task deletes it. It does not read or change your other reminders, and nothing from Reminders is sent to us.
 
-### 2.3 Google Drive data
+When you keep an action from a scan, such as a reminder to pay a bill or what you are owed from a split, it becomes a task, and the task's notes can include the **amount** and the name of the biller (for example "Bill to pay: ₹2,340 · due 22 Sep"). Tasks are part of your content, so that amount is stored in your account and synced like any other task. When you mark a bill as paid or log an expense, that record is kept **only on the phone** where you made it and is not sent to us. QuickInk does not store card, bank or UPI account details: **Pay** hands a payment link to the UPI app you choose, and QuickInk knows you paid only if you answer that you did. **Add event** and **Add contact** open your phone's own calendar and contacts editors; QuickInk does not read your calendar.
 
-QuickInk requests the **`drive.file`** scope (or equivalent app-scoped Drive scope). Under this scope, the app can only read and write files **it itself created** in your Drive. The app cannot read your other Drive files. We use this scope solely to:
-- Save copies of your QuickInk documents, photos, and notes to your Drive so they can sync across devices.
-- Read those files back when you sign in on another device or reinstall the app.
+### 2.4 Location
+If you allow location access, QuickInk records where your photos are taken, and where your scans are taken while **Attach location to scans** is on, to organise them by place. Photos and files you import keep the location already saved in them. The coordinates and the place name are stored with the item and synced to your account. To turn coordinates into a place name, your phone sends them to Apple's or Google's location service; Ask does the same with addresses it finds in your documents. In the web app, Ask sends such an address to Google's geocoding service, and the map of a saved location is loaded by your browser from Google Maps, which receives that location's coordinates. Trip records from earlier versions of the app may include the route of trips you recorded. You can decline or revoke the location permission at any time; new photos and scans then carry no location of their own.
 
-We do **not** transfer your Drive data to any other party. We do **not** use your Drive data for advertising, model training, or any purpose other than providing app functionality.
+### 2.5 Contacts
+Contacts you link to a document or note, or ask Ask to save, are stored in your account: their name, organisation, phone numbers and email addresses. If you allow access to your address book, the invite and share pickers match names against it **on your device**; only the email address of someone you choose to invite is sent. We do not upload your address book.
 
-### 2.4 Camera
+### 2.6 Face grouping
+Face grouping is not part of this version of the app. It runs in the web app and in earlier versions of the app; in those app versions, face detection ran **on your device**. The mathematical face templates it creates (a list of numbers, not an image) are stored **in your account**, so the people you named follow you across devices. Nothing on our servers reads or analyses these templates; they are used only by your own devices and the web app. Your photos are not sent for this. Templates synced by the web app or an earlier version stay in your account until you delete the account (see Section 10), or until you ask us to remove them by writing to **admin@thoughtbasics.com**; this version of the app has no "Delete all face data" control and no longer keeps a local copy. Where face grouping runs, giving a person a name **automatically links that person to photos you add later in which it recognises them** — you are not asked to confirm each one. Those links are part of your content, so they sync to your other devices, and you can remove a person from any photo at any time.
 
-Document and photo scanning uses Google ML Kit's document scanner, which runs on your device and is invoked through a system-provided UI. The scanner asks for camera access at the moment you start a scan. On both Android and iOS, images are processed locally; we do not upload them to our servers (because we do not have any).
+### 2.7 Voice
+Voice notes you record are stored as content (2.3). Their transcription runs on your device where your phone supports the language; on iOS, when it doesn't, Apple's speech recognition may process the audio under Apple's privacy policy. When you speak into the microphone to search on Android, your phone's speech service (usually Google's) may process the audio off the device. QuickInk does not send audio to its AI provider.
 
-### 2.5 Photos and images
+### 2.8 Usage analytics and diagnostics
+We collect first-party analytics on our own servers, linked to your account (your account ID, email address, name and profile picture): your platform (iOS or Android), app version, product events (for example, "a document was scanned", its page count, whether OCR ran and how many characters it read) and sync-error reports (the kind of item, the error code and the item's ID) — **never** the text or images of your content. We do not use third-party analytics or advertising SDKs. Device logs stay on your device unless you send them to us.
 
-QuickInk lets you capture, scan, organize, and retrieve photos and document images. Images you create or capture inside the app are stored in QuickInk's own app storage and, when sync is enabled, in your own Google Drive folder. QuickInk does **not** read, index, or upload your device's existing photo library or camera roll — it only handles images you create within the app. If a future version adds the ability to import from your photo library, we will update this policy and request the appropriate permission at that time.
+### 2.9 Push notifications
+This version of the app registers no push token and sends you no push notifications; its reminders are scheduled on your phone and never pass through our servers. Earlier versions of the app, if you allowed notifications, registered a push token (from Firebase Cloud Messaging, which delivers through Apple's push service on iPhone), an install ID and your platform, so notifications reached your device. The first time this version runs, it removes that registration for the device it is on; registrations from other devices you have not updated stay until you delete your account. A notification to an earlier version can include a preview of what it is about — for example, the sender and the start of a chat message — and that preview passes through Google's or Apple's push service on its way to you.
 
-### 2.6 Built-in audio (focus / background music)
+## 3. Purposes and legal basis
 
-QuickInk includes a set of built-in focus and background audio tracks you can play while you work. This feature:
+We process the above solely to: (a) provide the service — sync, backup, search, sharing, notifications; (b) secure it — authentication, abuse prevention, incident response; (c) improve it — aggregate usage analytics; (d) communicate with you about the service; and (e) meet legal obligations (including India's CERT-In directions and the DPDP Act). Under the DPDP Act we process your personal data on the basis of your **consent**, given when you sign up and when you enable specific features (location, contacts, notifications, face grouping). Some features are on when you start — including transcription and naming (Section 4b: automatic naming of new scans and voice notes, and online transcription of scanned pages — new ones as they are made, including scans Auto-scan makes from your photos, and older ones when you open them or combine them into a document), which is described here and which you consent to by using the app; each has a Settings switch that turns it off. You may withdraw consent at any time as easily as you gave it — via the corresponding Settings toggle or OS permission, or by writing to us; withdrawal stops future processing but doesn't affect processing already done.
 
-- Uses audio that is **bundled with the app** and played **locally on your device**. It is **not** streamed from, and sends **no** data to, any third-party music or streaming service.
-- Does **not** use your microphone and does **not** record any audio.
-- Supports **background and offline playback** — audio can keep playing when the app is in the background or the screen is off, and works with no internet connection. To do this, the app uses the operating system's standard media-playback facilities (a foreground media service and media-control notification on Android; the Audio background mode on iOS).
-- Does **not** collect any data about what you play or for how long.
+## 4. What we do NOT do
 
-### 2.7 Notifications
+We do not sell or rent your personal data. We do not show ads or share data with advertisers. **We do not use your content to train AI models**, and Cloudflare, the AI provider QuickInk uses (Section 6), is contractually barred from training on it. We do not track you across other apps or websites. Nobody at QuickInk browses your content as a matter of course; staff access is limited to what is needed to operate, secure and support the service.
 
-When background audio is playing, QuickInk shows a standard media-control notification so you can pause, resume, or skip tracks without reopening the app. On Android 13+ and on iOS, the system may ask you to allow notifications for this purpose. We do **not** send marketing or promotional push notifications.
+## 4a. Automated processing of your content
 
-### 2.8 Diagnostic information
+To power search and the AI features, your content is processed **automatically, by machines**: text you type, text recognised from scans and photos, and transcripts of voice notes are turned into a search index — including numerical representations ("embeddings") used to find things by meaning rather than exact words. In the apps, the index is built **on your device** and stored in your account. For items you add and searches you make in the QuickInk web app, the text is sent to Cloudflare's AI service (Section 6) to build the index. When you use **Ask**, your question and the relevant pages of your documents are sent to Cloudflare's AI service with your account ID, and the answer may be kept for up to 30 days. All of this is used to answer *your* searches and questions, and for nothing else. It is not used to train models, ours or anyone's.
 
-The app may write basic logs to your device (for example, error traces) to help diagnose problems. These logs stay on your device. We do not collect crash reports or telemetry from your device unless explicitly stated in a future version of this policy.
+If you use the import features, we access only what you choose. When you import from **Google Drive**, QuickInk shows the names of your Drive files so you can choose, and downloads only the files you select. On Android you can also import from **Google Photos** through Google's photo picker.
 
-## 3. Information we do not collect
+When you tap **Add to Wallet** on a scanned ticket, QuickInk sends the ticket's title, its date and time, its booking reference and what its barcode says to our server, which makes a pass for Apple Wallet or Google Wallet and hands it back. The page image, the page text and the scan itself are not sent, and the server keeps nothing. Nothing is sent until you tap.
 
-- We do not collect or sell advertising identifiers.
-- We do not use third-party analytics SDKs.
-- We do not collect your contacts, location, microphone audio, or SMS.
-- We do not access your existing photo library / camera roll, or any files outside QuickInk's own Drive folder.
-- We do not access your Drive files outside the `drive.file` app-created scope.
-- We do not collect listening history or any audio analytics from the built-in player.
+## 4b. Transcription and naming — new scans and voice notes
 
-## 4. How we use the information
+**Settings → Privacy → Transcription & titles** has two modes: **Online** (the default) and **On device**.
 
-We use the information described above **only** to:
-1. Authenticate you and keep you signed in.
-2. Store and sync your documents, photos, and notes across your devices via your own Google Drive.
-3. Show your name or avatar inside the app for identification.
-4. Provide app functionality such as scanning, search and retrieval across your own content, and playback of the built-in focus audio.
+In Online mode, two things happen automatically when you capture:
 
-We do not sell, rent, or trade your personal information to third parties.
+- **Naming.** As soon as the first page of a new scan is read — or a new voice note's transcription finishes — the **text** your device recognised is sent to our AI provider (Section 6) — unless it looks like an identity document or a prescription (below) — which returns a short title and a one-line description. Only recognised text is sent on this path — never the page image, and never the audio. (How the transcript itself is produced is described in Section 2.7: on-device, except that iOS system speech recognition may involve Apple for some languages. The naming call sends only the finished transcript's text, to our provider.)
+- **Transcription.** QuickInk sends **the image of each page of a new scan** — except pages that look like an identity document or a prescription (below) — to our transcription provider, which returns the text it reads — phones are poor at handwriting, and the online reading is substantially better. If you turn on **Auto-scan camera photos**, a scan it makes from one of your photos is a new scan too, and its page is sent **as soon as the scan is made** — which can be while QuickInk is in the background, because that is when Auto-scan looks at your new photos. If that send fails (you were offline, for example), QuickInk tries again, a few times at most, while the scan is still waiting in your Inbox and the app is open. QuickInk also sends the pages of a scan that your phone alone has read so far **when you open that scan**, or **when you combine it into a document** with Combine pages — so an older scan is sent only when you open it or choose it for a document, one document at a time. No background process ever goes back through your existing scans. Your device also reads every page itself, and that on-device text is what you keep when a page can't be sent — offline, past the daily limit, or with the mode set to On device.
 
-## 5. Sharing with third parties
+Online is the default because most phones cannot read handwriting reliably on their own, and because a title made from misread text is close to useless.
 
-QuickInk relies on the following third-party services for core functionality:
+Switching to **On device** stops both immediately — nothing about a new scan or voice note leaves your phone automatically. You can still transcribe an individual page or a whole document yourself from its details screen, and generate a title and description from there; doing so sends only what that action needs.
 
-| Provider | What it does | Data involved |
+The transcription path sends a **picture of your document** rather than text taken from it. Before it sends a page on its own, QuickInk looks at what your phone read on that page, and at any QR code on it, for signs of an **Aadhaar, PAN or voter ID card, a driving licence, a cheque, a passport or a prescription**. A page that looks like one of those is not sent automatically, and neither is its text for naming. An identity card, driving licence, cheque or passport is sent only if you transcribe it yourself from its details screen; a prescription shows a button that asks you before it is sent. The scan itself is still stored and synced to your account like any other (Section 2.3). This check is a guess and **can miss a page** — one your phone could not read, for example — and it does not look for other financial records or health information, so with Online set those pages are sent like any other, as are the pages of an older scan that you open while it still has pages only your phone has read. Switch to On device before scanning anything you'd rather keep entirely on your phone. Images and text sent on these paths are used only to produce the transcription, title and description, and are not used to train models.
+
+The transcribed text of a page is stored **with the scan in your account** and syncs to your other devices, like the rest of your content. It does not replace what your device originally read. Any document you export that contains transcribed text says so on the page. The generated title and description are stored with the scan like a title you typed yourself, and sync across your devices; you can edit or clear them at any time. There are daily limits on how many pages can be transcribed and how many titles can be generated this way.
+
+## 5. Where your data is stored
+
+Your content and account data are stored with the infrastructure providers in Section 6. Supabase (database and sign-in) and PowerSync (sync) run in Mumbai, India (AWS ap-south-1). The web app runs in Google Cloud in Mumbai (asia-south1) and is reached through Cloudflare's global network. Media files are stored in Cloudflare R2 in its Asia-Pacific location. The analytics service runs in Google Cloud in the United States (us-central1). Some providers operate global networks, so data may transit or be processed in other jurisdictions; transfers comply with the DPDP Act's cross-border provisions.
+
+## 6. Service providers (data processors)
+
+| Provider | Role | Data involved |
 |---|---|---|
-| Google Sign-In | Authentication | Your Google profile basics (name, email, avatar) |
-| Google Drive | Cloud sync of documents, photos, and notes | Files QuickInk creates in your Drive (`drive.file` scope) |
-| Google ML Kit (on-device) | Document and photo scanning | Page/photo images, processed on your device only |
-| Google Play Services / Google Play | App distribution and updates (Android) | Standard Play telemetry handled by Google |
-| Apple App Store | App distribution and updates (iOS) | Standard App Store telemetry handled by Apple |
+| Google (Sign-In, Firebase Cloud Messaging, Maps, Play services) | Authentication; push delivery; on Android, maps, place names, voice input and Google Photos import; in the web app, the map of a saved location and placing addresses Ask saves as map pins | Google profile basics; push tokens and notification previews (2.9); on Android, locations shown on a map or turned into place names (2.4), voice input audio (2.7), and the photos you pick from Google Photos; in the web app, the addresses Ask saves as places and the coordinates of saved locations you open (2.4) |
+| Apple (Push Notification service, MapKit, speech recognition) | On iPhone: push delivery, maps and place names, and speech recognition where on-device recognition isn't available | Notification previews (2.9); locations shown on a map, turned into place names or searched for (2.4); voice audio when on-device recognition isn't available (2.7) |
+| Supabase | Database, authentication, APIs | Account data, content metadata, synced content records |
+| Cloudflare (R2, CDN, Workers) | Media file storage and delivery; share pages | Your media/document files; shared-content delivery |
+| Cloudflare (Workers AI) | AI features — answering your Ask questions (4a); naming new scans and voice notes (a generated title and one-line description from their text, 4b); transcribing the pages you scan (4b); building the web app's search index (4a) | Your Ask questions with the relevant pages of your documents (answers kept up to 30 days); text of new scans and voice notes; images of scanned pages sent for transcription; text and search queries from the web app |
+| Google Drive | Optional file import, when you choose it | The names of your Drive files while you choose; the files you select |
+| PowerSync (JourneyApps) | Synchronization between your device and our database | Synced content records |
+| Google Cloud | Hosting for our analytics service and web app | Analytics linked to your account (2.8); content you use in the web app |
 
-Google's services are governed by Google's Privacy Policy: https://policies.google.com/privacy
-Apple's distribution is governed by Apple's Privacy Policy: https://www.apple.com/legal/privacy/
+Each processes data only to provide its service to us, under its own security and privacy commitments. We will keep this subprocessor list current on this page.
 
-We do not share your data with any third parties beyond what is required to operate these services. The built-in audio is bundled with the app and does not involve any third-party music provider.
+## 7. Sharing features — what becomes visible to others
 
-## 6. Data retention
+- **Invites:** if you invite someone by email to a document or album, they see that content and your display name, email address and profile photo. In a chat, the other members see your name, email address, profile photo and when you were last active.
+- **Share links:** **anyone with a link** can view what it shares. Treat links like the documents themselves. Document links can also have a password, an expiry date, or require viewers to enter their email address, which you then see. An album link shows a preview of the album (its title, your name, how many items it holds and a few thumbnails) and lets people ask to join. You can reset or turn off either kind of link at any time; already-downloaded copies remain with recipients.
+- **Publishing:** a **public** story is readable by anyone with its link and may appear in Discover. A **protected** story is visible only to people you invite; others can ask you for access by giving their name and email address. After you unpublish a story, its media can remain in our content delivery network's cache for up to 4 hours.
+- **Join requests:** if you ask to join a shared album, its owner and admins see your account name and email address.
 
-- Data on your device is retained until you delete it or uninstall the app.
-- Data in your Google Drive remains in your Drive until you delete it through QuickInk or via Drive directly.
-- Because we do not run our own servers, **we do not retain copies of your documents, photos, or notes** anywhere outside your own device and your own Drive.
+## 8. Security
 
-## 7. How to delete your data
+TLS encryption for all transfers; time-limited, signed URLs for private media (media in a published story is served publicly, Section 7); access controls that isolate each account's private files; sign-in tokens stored in the platform secure store (iOS Keychain / Android encrypted storage); encryption at rest on our storage providers. No system is 100% secure — see Section 12 for how we handle incidents.
 
-- **In-app:** open Settings → sign out, then uninstall the app. On both Android and iOS, removing the app deletes its local data on your device.
-- **Drive content:** open Google Drive and delete the QuickInk folder, or revoke QuickInk's access at https://myaccount.google.com/permissions.
-- **Account-level deletion:** because we do not store an account record on our servers, there is nothing for us to delete. If you would still like a confirmation that no residual logs exist, email **admin@thoughtbasics.com** and we will respond within 30 days.
+## 9. Your rights (DPDP Act)
 
-See our [account-deletion guide](/delete-account/) for step-by-step instructions.
+You have the right to: **access** a summary of your personal data and processing; **correction and completion**; **erasure** (Section 10); **grievance redressal**; and to **nominate** a person to exercise your rights if you are incapacitated or deceased. To exercise any right, email **admin@thoughtbasics.com** from your registered email. We acknowledge grievances within **48 hours** and aim to resolve them within **15 days**. If unsatisfied, you may approach the **Data Protection Board of India**.
 
-## 8. Children's privacy
+## 10. Data retention and deletion
 
-QuickInk is not directed at children under 13 (or under 16 in regions where that is the applicable age). We do not knowingly collect information from children. If you believe a child has used the app without consent, contact us and we will assist.
+- Your data is retained while your account is active. Items you move to Trash can be restored for 30 days; after that the app deletes them permanently.
+- **Account deletion:** see [Delete your account](/delete-account/). Deletion removes your account record, synced content, media files, analytics data (your analytics identity and usage events) and cached answers to your Ask questions from our systems, subject to short backup-rotation windows and log-retention obligations under Indian law (CERT-In directions require certain security logs to be retained for 180 days).
+- Content you shared or published may remain with people who already downloaded it.
+- Dormant accounts may be deleted after prolonged inactivity following advance notice to your registered email.
 
-## 9. International users
+## 11. Children
 
-QuickInk processes data on your device and in your own Google account. Because Google operates globally, your data may transit Google's infrastructure in countries other than your own. Google publishes its data-transfer practices at https://policies.google.com/privacy.
+QuickInk is intended for users **18 years and older**. We do not knowingly process the personal data of anyone under 18. If you believe a minor is using QuickInk, contact us and we will delete the account and its data.
 
-## 10. Security
+## 12. Data breaches
 
-We use Google's authentication and Drive APIs over HTTPS. Locally, your data is stored in sandboxed, app-private storage — on Android in standard application-private storage, and on iOS in the app's sandboxed container — isolated from other apps. No method of transmission or storage is 100% secure; you use the app at your own risk, subject to the limitation of liability in our [Terms of Service](/terms/).
+If a personal-data breach affects you, we will notify you without undue delay with a description of the breach, likely consequences, and the steps we are taking, and we will notify the Data Protection Board of India and CERT-In as required by law.
 
-## 11. Changes to this policy
+## 13. Changes to this policy
 
-We may update this policy from time to time. The "Last updated" date at the top reflects the most recent revision. If we make material changes, we will notify you via the app or via the same channel you signed in with.
+We may update this policy; the "Last updated" date reflects the latest revision. Material changes will be notified by email to your registered address. A copy of this notice is available in other languages listed in the Eighth Schedule to the Constitution of India on request.
 
-## 12. Contact
+## 14. Contact / Grievance Officer
 
-Questions, corrections, or deletion requests:
-
-**thoughtbasics**
-Email: **admin@thoughtbasics.com**
-Location: Bengaluru, Karnataka, India
+**thoughtbasics** — Bengaluru, Karnataka, India
+Grievance contact: **admin@thoughtbasics.com** [name an individual on publication]

@@ -4,7 +4,7 @@ title: QuickInk
 
 # QuickInk
 
-QuickInk is a document and photo organizer for **Android and iOS**, with built-in scanning, fast search and retrieval, Google Drive sync, and a set of built-in focus/background audio tracks (with background and offline playback).
+QuickInk is a fast note-taking app for Android and iOS, with built-in document scanning, voice notes, and search that finds things by meaning as well as by keyword. Your notes sync privately to your account across your devices.
 
 ## Legal
 
@@ -20,5 +20,4 @@ Questions, feedback, or data-deletion requests:
 
 ## Get the app
 
-- [Google Play](https://play.google.com/store/apps/details?id=app.quickink.mobile) (Android)
-- [App Store](https://apps.apple.com/app/quickink/idXXXXXXXXXX) (iOS) — replace `idXXXXXXXXXX` with your real App Store ID
+[Google Play](https://play.google.com/store/apps/details?id=app.quickink.mobile)
