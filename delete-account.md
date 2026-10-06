@@ -26,13 +26,13 @@ Residual copies in encrypted backups are purged on the normal backup-rotation cy
 
 ### Option B — By email
 
-If you can no longer sign in, email **admin@thoughtbasics.com** from the Google account email you used with QuickInk, with the subject **"QuickInk deletion request"**. No reason required.
+If you can no longer sign in, email **admin@thoughtbasics.com** from the email address of your QuickInk account (shown in Settings → Account), with the subject **"QuickInk deletion request"**. No reason required.
 
 We will verify the request, perform the same deletion described above, and confirm by email within **30 days** (typically much sooner).
 
 ### Afterwards — Remove access
 
-Optionally revoke QuickInk's access to your Google account at https://myaccount.google.com/permissions. If you deleted by email (Option B), also uninstall the app to remove local data.
+Optionally revoke QuickInk's access to your Google account at https://myaccount.google.com/permissions. If you signed in with Apple, deleting your account in the app also ends QuickInk's access to your Apple account; you can check under Settings → Apple Account → Sign in with Apple on your iPhone. If you deleted by email (Option B), also uninstall the app to remove local data.
 
 ## What others may still have
 
