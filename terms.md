@@ -6,33 +6,37 @@ permalink: /terms/
 # Terms of Service for QuickInk
 
 **Effective date:** 1 October 2026
-**Last updated:** 12 July 2026
+**Last updated:** 29 October 2026
 
-These Terms of Service ("Terms") govern your use of the QuickInk mobile application and related services, including sync, sharing, and published pages ("QuickInk", "the Service") operated by **thoughtbasics**, Bengaluru, Karnataka, India.
+These Terms of Service ("Terms") govern your use of QuickInk: the QuickInk apps for iPhone and Android, the web app at quickink.org, and the services behind them, including sync, search and sharing ("QuickInk", "the Service"). QuickInk is operated by **thoughtbasics**, Bengaluru, Karnataka, India.
 
-By installing or using QuickInk you agree to these Terms and the [Privacy Policy](/privacy/), which is incorporated by reference. If you do not agree, do not use the Service.
+By installing the app or using QuickInk you agree to these Terms and the [Privacy Policy](/privacy/), which is incorporated by reference. If you do not agree, do not use the Service.
 
 ---
 
 ## 1. Eligibility
 
-You must be at least **18 years old** and have a valid Google account to use QuickInk. By using the Service you represent that you meet these requirements.
+You must be at least **18 years old** to use QuickInk. By using the Service you confirm that you are.
 
 ## 2. Your account
 
-QuickInk uses your Google account for sign-in. Keep your Google credentials secure; you are responsible for activity under your account. You can revoke QuickInk's access at https://myaccount.google.com/permissions and delete your account as described at [/delete-account/](/delete-account/).
+You sign in to QuickInk with your Apple account or your Google account. Accounts that QuickInk sets up with a password sign in with that email address and password instead. Keep your sign-in details secure; you are responsible for activity under your account.
+
+You can delete your account as described at [/delete-account/](/delete-account/). You can also remove QuickInk's access to your Google account at https://myaccount.google.com/permissions, or to your Apple account under Settings → Apple Account → Sign in with Apple on an iPhone.
 
 ## 3. The Service
 
-QuickInk lets you scan, store, organize, and share documents and media. When you are signed in, your content is synced to QuickInk's cloud infrastructure so it is backed up and available across your devices. Features may change, and some features may be released gradually.
+QuickInk lets you scan paper, keep notes, voice notes, photos and files, organise them into folders and documents, search them, ask questions about them, and share documents with other people. When you are signed in, your content is synced to QuickInk's cloud so it is backed up and available on your other devices and in the web app. Features may change, and some features may be released gradually.
+
+Some features use AI: online transcription of scanned pages, titles and descriptions for new scans and voice notes, and answers in Ask. They run only after you allow online AI, as the [Privacy Policy](/privacy/) explains. Their results are made by a machine and can be wrong. Check anything important against the original document.
 
 ## 4. License to use the app
 
-We grant you a personal, limited, non-exclusive, non-transferable, revocable license to install and use QuickInk on devices you own or control, for your personal or internal business use. You may not copy, modify, reverse-engineer, or create derivative works from the app except as permitted by law; scrape or mass-extract data via automated means; resell or sublicense the app; remove notices; or attempt unauthorized access to the Service or other users' data.
+We grant you a personal, limited, non-exclusive, non-transferable, revocable license to install and use the QuickInk apps on devices you own or control, and to use the web app, for your personal or internal business use. You may not copy, modify, reverse-engineer, or create derivative works from the app except as permitted by law; scrape or mass-extract data via automated means; resell or sublicense the app; remove notices; or attempt unauthorized access to the Service or other users' data.
 
 ## 5. Your content
 
-You own the content you create or upload. You grant us only the limited rights needed to operate the Service: to store, transmit, back up, and display your content to you and to the people **you** choose to share it with, and to process it on your device as described in the Privacy Policy. We claim no other rights. We do not use your content for advertising or model training.
+You own the content you create or upload. You grant us only the limited rights needed to operate the Service: to store, transmit, back up, and display your content to you and to the people **you** choose to share it with, and to process it as described in the Privacy Policy, on your device and, for the online AI features you allow, through our AI provider. We claim no other rights. We do not use your content for advertising or model training.
 
 You are responsible for your content and for keeping independent backups of anything critical. Scan and share only material you have the right to digitize and distribute.
 
@@ -44,15 +48,15 @@ We may remove content or suspend accounts on receiving actual knowledge (includi
 
 ## 7. Sharing and published content
 
-Share links make content available to **anyone with the link**, subject to controls you set (password, expiry, download permission). Publishing makes content **publicly accessible on the web**. You are responsible for what you share and publish. We may disable shared or published content that violates Section 6.
+A share link makes a document available to **anyone with the link**, subject to the controls you set: a password, an expiry date, whether viewers can download it, and whether viewers must enter their email address. You can turn a link off at any time, but copies people have already downloaded stay with them. Inviting someone by email lets them view the document in their own QuickInk account; they cannot change it. You are responsible for what you share. We may disable shared content that violates Section 6.
 
 ## 8. Grievance redressal
 
-Complaints about the Service or about content on it: **admin@thoughtbasics.com** [name a Grievance Officer on publication]. We acknowledge complaints within **24 hours** and resolve them within **15 days** of receipt. Complaints alleging exposure of private imagery of an individual are actioned within **24 hours** of receipt, as required by the IT Rules, 2021.
+Complaints about the Service or about content on it go to our Grievance Officer, **Achal B Indiresh**, at **admin@thoughtbasics.com**. We acknowledge complaints within **24 hours** and resolve them within **15 days** of receipt. Complaints alleging exposure of private imagery of an individual are actioned within **24 hours** of receipt, as required by the IT Rules, 2021.
 
 ## 9. Third-party services
 
-The Service depends on providers including Google (Sign-In, push, app stores), Supabase, Cloudflare, and PowerSync. Your use of Google services is also governed by Google's terms (https://policies.google.com/terms). We are not responsible for outages or data loss caused by third-party providers, though we choose and monitor them with care.
+The Service depends on providers including Supabase (database and sign-in), PowerSync (sync between your devices and our database), Cloudflare (file storage, share pages and the AI features), Google Cloud (hosting for the web app), and Apple and Google (sign-in and the app stores). The [Privacy Policy](/privacy/) lists them all and what each one receives. When you sign in with Apple or Google, or get the app from the App Store or Google Play, their own terms also apply to that use. We are not responsible for outages or data loss caused by third-party providers, though we choose and monitor them with care.
 
 ## 10. Availability and changes
 

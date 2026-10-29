@@ -32,7 +32,7 @@ We will verify the request, perform the same deletion described above, and confi
 
 ### Afterwards — Remove access
 
-Optionally revoke QuickInk's access to your Google account at https://myaccount.google.com/permissions. If you signed in with Apple, deleting your account in the app also ends QuickInk's access to your Apple account; you can check under Settings → Apple Account → Sign in with Apple on your iPhone. If you deleted by email (Option B), also uninstall the app to remove local data.
+Optionally revoke QuickInk's access to your Google account at https://myaccount.google.com/permissions. If you signed in with Apple, deleting your account on an iPhone or iPad also ends QuickInk's access to your Apple account. If you deleted it on Android or the web, remove QuickInk under Settings → Apple Account → Sign in with Apple on an iPhone, or at account.apple.com. If you deleted by email (Option B), also uninstall the app to remove local data.
 
 ## What others may still have
 
