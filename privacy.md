@@ -117,7 +117,7 @@ Each processes data only to provide its service to us, under its own security an
 
 - **Invites:** if you invite someone by email to a document, they can view it in their own QuickInk account, and they see your display name, email address and profile photo. They cannot change it.
 - **Share links:** **anyone with a document's link** can view it. Treat links like the documents themselves. A link can also have a password or an expiry date, or require viewers to enter their email address, which you then see; you also choose whether viewers can download. You can reset or turn off a link at any time; copies already downloaded remain with recipients.
-- **Earlier versions:** earlier versions of the app and the web app also had shared albums, chats and published stories. On 29 October 2026 every published story was unpublished and every album link was turned off; those pages no longer open, and the public copies of their media were deleted. Album memberships and chat messages from those versions stay in your account until you delete it (Section 10).
+- **Earlier versions:** earlier versions of the app and the web app also had shared albums, chats and published stories. On 29 October 2026 every published story was unpublished and every album link was turned off; those pages no longer open, and the public copies of their media were deleted. Albums, stories and chat messages from those versions stay in your account until you delete it (Section 10), but nobody else can open your albums any more.
 
 ## 8. Security
 
