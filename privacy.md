@@ -6,7 +6,7 @@ permalink: /privacy/
 # Privacy Policy for QuickInk
 
 **Effective date:** 1 October 2026
-**Last updated:** 29 October 2026
+**Last updated:** 20 November 2026
 
 This Privacy Policy explains how QuickInk — the QuickInk apps for iPhone and Android and the web app at quickink.org ("QuickInk", "the app", "we", "our") — handles your information. QuickInk is operated by **thoughtbasics**, Bengaluru, Karnataka, India — the "Data Fiduciary" under India's Digital Personal Data Protection Act, 2023 ("DPDP Act").
 
@@ -58,6 +58,9 @@ Voice notes you record are stored as content (2.3). Their transcription runs on 
 We collect first-party analytics on our own servers, linked to your account (your account ID, email address, name and profile picture): your platform (iOS or Android), app version, product events (for example, "a document was scanned", its page count, whether OCR ran and how many characters it read) and sync-error reports (the kind of item, the error code and the item's ID) — **never** the text or images of your content. We do not use third-party analytics or advertising SDKs. Device logs stay on your device unless you send them to us.
 ### 2.9 Push notifications
 This version of the app registers no push token, sends you no push notifications and contains no Firebase Cloud Messaging and no Firebase installation ID; its reminders are scheduled on your phone and never pass through our servers. When someone shares a document with you, you learn about it inside the app the next time it syncs. Earlier versions of the app, if you allowed notifications, registered a push token (from Firebase Cloud Messaging, which delivers through Apple's push service on iPhone), an install ID and your platform, so notifications reached your device. The first time this version runs, it removes that registration for the device it is on; registrations from other devices you have not updated stay until you delete your account. A notification to an earlier version can include a preview of what it is about — for example, the sender and the start of a chat message — and that preview passes through Google's or Apple's push service on its way to you.
+
+### 2.10 Feedback you send
+When you report a problem or suggest a feature from the app or from quickink.org, we receive what you write, any screenshots you add, the app version, your phone's model and system version (on the web, your browser and system instead) and whether the app had finished syncing. For a problem sent from the app, if you leave "Include the diagnostics log" ticked, we also receive that log: what the app did and how long each step took, with identifiers and timings but none of your text or images. Your reports, and our replies to them, are linked to your account and only you and the QuickInk team can read them. We use them to fix problems and decide what to build. A screenshot shows whatever was on your screen, so add only what you are happy for us to see.
 
 ## 3. Purposes and legal basis
 
@@ -130,6 +133,7 @@ You have the right to: **access** a summary of your personal data and processing
 ## 10. Data retention and deletion
 
 - Your data is retained while your account is active. Items you move to Trash can be restored for 30 days; after that the app deletes them permanently.
+- Feedback you send, with its screenshots, diagnostics log and our replies, is kept while your account is active and deleted with your account.
 - **Account deletion:** see [Delete your account](/delete-account/). Deletion removes your account record, synced content, media files, analytics data (your analytics identity and usage events) and cached answers to your Ask questions from our systems, subject to short backup-rotation windows and log-retention obligations under Indian law (CERT-In directions require certain security logs to be retained for 180 days).
 - Content you shared or published may remain with people who already downloaded it.
 - Dormant accounts may be deleted after prolonged inactivity following advance notice to your registered email.
